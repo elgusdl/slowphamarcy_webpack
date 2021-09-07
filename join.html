@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="css/join.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="js/slick.min.js"></script>
+    
+    <script src="./js/common.js"></script>
+</head>
+<body>
+    
+
+    <header></header>
+    
+
+    <main>
+
+
+        <div class="title">
+            <article>
+                <h2>JOIN</h2>
+            </article>
+            <img src="img/main/join2.png" alt="없음">
+        </div>
+
+        
+        <div class="info">
+            <h3>기본정보</h3>
+            <p class="te">필수입력사항</p>
+            <table border="1">
+                <tbody>
+                    <tr>
+                        <th scope="row">아이디</th>
+                        <td><input type="text" name="id" required> 
+                            (영문소문자/숫자, 4~16자)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">비밀번호</th>
+                        <td><input type="password" name="pw"> 
+                            (영문 대소문자/숫자/특수문자 중 2가지 이상 조합, 10자~16자)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">비밀번호 확인</th>
+                        <td><input type="password" name="pw"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">비밀번호 확인 질문</th>
+                        <td>
+                            <select>
+                                <option>기억에 남는 추억의 장소는?</option>
+                                <option>추억하고싶은 날짜가 있다면?</option>
+                                <option>자신의 보물 제1호는?</option>
+                                <option>자신이 두번째로 존경하는 인물은?</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">비밀번호 확인 답변</th>
+                        <td><input type="text" name="answer"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">이름</th>
+                        <td><input type="text" name="name"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">주소</th>
+                        <td>
+                            <input type="text" name="postcode1"> <br>
+                            <input type="text" name="addr1"> 기본주소 <br>
+                            <input type="text" name="addr2"> 나머지주소
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">휴대전화</th>
+                        <td>
+                            <select>
+                                <option>010</option>
+                                <option>011</option>
+                                <option>016</option>
+                                <option>017</option>
+                                <option>018</option>
+                            </select> - 
+                            <input type="text" name="mobile1"> -
+                            <input type="text" name="mobile2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">이메일</th>
+                        <td><input type="email"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">이메일 수신여부</th>
+                        <td>
+                            <input type="checkbox"><label>동의함</label>
+                            <p>쇼핑몰에서 제공하는 유익한 이벤트 소식을 이메일로 받으실 수 있습니다.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">생년월일</th>
+                        <td>
+                            <input type="text" name="birth_year">년
+                            <input type="text" name="birth_month">월
+                            <input type="text" name="birth_day">일
+                            <span class="birth">
+                                <input type="checkbox" checked><label>양력</label>
+                                <input type="checkbox"><label>음력</label>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">지역</th>
+                        <td>
+                            <select>
+                                <option selected>선택</option>
+                                <option>경기</option>
+                                <option>서울</option>
+                                <option>인천</option>
+                                <option>강원</option>
+                                <option>충남</option>
+                                <option>충북</option>
+                                <option>대전</option>
+                                <option>경북</option>
+                            </select>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="bt">
+                <a href="#">OK</a>
+                <a href="#">RESET</a>
+            </div>
+        </div>
+
+        
+    </main>
+
+
+    <footer></footer>
+
+
+</body>
+</html>
